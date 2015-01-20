@@ -1,0 +1,38 @@
+TEST1: presorted list
+N=5000: T_ss=161, T_bs=0, T_is=1, T_ms=4, T_qs=4
+N=10000: T_ss=676, T_bs=2, T_is=2, T_ms=5, T_qs=1
+N=20000: T_ss=2595, T_bs=2, T_is=3, T_ms=23, T_qs=4
+N=40000: T_ss=12540, T_bs=0, T_is=0, T_ms=39, T_qs=9
+N=80000: T_ss=62497, T_bs=1, T_is=2, T_ms=67, T_qs=17
+END TEST1
+
+TEST2: reverse sorted list
+N=5000: T_ss=325, T_bs=489, T_is=205, T_ms=4, T_qs=4
+N=10000: T_ss=702, T_bs=2385, T_is=1307, T_ms=10, T_qs=7
+N=20000: T_ss=3596, T_bs=8145, T_is=3593, T_ms=32, T_qs=4
+N=40000: T_ss=17563, T_bs=35036, T_is=32230, T_ms=48, T_qs=22
+N=80000: T_ss=84027, T_bs=127538, T_is=90939, T_ms=63, T_qs=19
+END TEST2
+
+TEST3: unsorted list
+N=5000: T_ss=173, T_bs=498, T_is=113, T_ms=6, T_qs=5
+N=5000: T_ss=173, T_bs=500, T_is=104, T_ms=3, T_qs=1
+N=5000: T_ss=170, T_bs=506, T_is=109, T_ms=3, T_qs=1
+
+N=10000: T_ss=795, T_bs=2141, T_is=459, T_ms=7, T_qs=3
+N=10000: T_ss=941, T_bs=2402, T_is=458, T_ms=19, T_qs=3
+N=10000: T_ss=981, T_bs=2107, T_is=429, T_ms=5, T_qs=3
+
+N=20000: T_ss=3632, T_bs=8761, T_is=1735, T_ms=10, T_qs=6
+N=20000: T_ss=4757, T_bs=8958, T_is=1795, T_ms=20, T_qs=6
+N=20000: T_ss=3471, T_bs=9118, T_is=1790, T_ms=11, T_qs=6
+
+N=40000: T_ss=17385, T_bs=51332, T_is=13601, T_ms=133, T_qs=39
+N=40000: T_ss=16699, T_bs=45207, T_is=9535, T_ms=46, T_qs=15
+N=40000: T_ss=16694, T_bs=36152, T_is=8138, T_ms=27, T_qs=15
+
+N=80000: T_ss=97497, T_bs=280288, T_is=57436, T_ms=85, T_qs=38
+N=80000: T_ss=101992, T_bs=280517, T_is=57597, T_ms=113, T_qs=33
+N=80000: T_ss=101384, T_bs=287559, T_is=57496, T_ms=111, T_qs=36
+
+END TEST3
